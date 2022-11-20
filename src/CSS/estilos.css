@@ -1,0 +1,156 @@
+body{
+    background-image: url(../Imagens/fundo\ site2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+font-family: 'VT323',monospace;
+color:rgb(243, 243, 243);
+font-size: 18px;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+padding: 30px;
+
+}
+
+.cartao{
+    background-color: #070d12;
+    width: 370px;
+    border: 2px solid #c227ba;
+    border-radius: 10px;
+    overflow: hidden;
+    }
+
+.abas img{
+   width: 30px; 
+}
+
+.cartao .minhas-informacoes{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /*alinha
+    horizintalmente por causa do flex direction column*/
+    gap: 10px;
+}
+
+.cartao .minhas-informacoes img{
+    width: 96px;
+    height: 96px;
+}
+
+.cartao .minhas-informacoes img{
+    border-radius: 50pc;
+    border: 3px solid #c227ba;
+    
+}
+
+.cartao .minhas-informacoes .nome{
+    font-size: 26px;
+}
+
+.cartao .minhas-informacoes .cargo{
+   font-size: 20px; color: #b8bbc5;
+}
+
+.cartao .conteudo{
+   margin-top: 15px;
+}
+
+.cartao .abas{
+    display: flex;
+}
+
+.cartao .abas .aba{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.cartao .abas .aba.selecionado{
+    background-color: #262626;
+}
+
+.cartao .informacoes-abas{
+    background-color: #262626;
+}
+
+.cartao .abas .aba:hover{
+    background-color: #414141;
+
+}
+
+.informacoes-abas .informacao{
+  min-height: 100px;  
+  padding: 15px;
+  display: none;
+}
+
+.informacoes-abas .informacao.selecionado{
+    display: block ;
+}
+
+
+
+.informacoes-abas .sub-titulo{
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.informacoes-abas .descricao{
+    font-size:  20px;
+    max-height: 180px;
+    overflow-y: auto;
+    padding-right:15px;
+}
+
+.informacoes-abas .descricao span{
+    color: aquamarine;
+}
+
+.redes-sociais{
+   display: flex; 
+   flex-direction: column;
+   gap: 22px;
+   align-items: center;
+   max-height: 180px;
+   overflow-y: auto;
+}
+
+.redes-sociais li a{
+width: 220px;
+display: block;
+color: #f3f3f3;
+text-align: center;
+padding: 17px;
+font-size: 14px;
+transform: opacity 0.3s 
+ease-in-out;
+}
+
+.redes-sociais .curriculo{
+    background-color: #06c185;
+}
+
+.redes-sociais .linkedin{
+    background-color: #1d87bd;
+}
+
+.redes-sociais .github{
+    background-color: #545454;
+}
+
+.redes-sociais li a:hover{
+    opacity: 0.8;
+}
+
+
+
+
+
